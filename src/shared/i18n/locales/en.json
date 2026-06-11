@@ -1,0 +1,889 @@
+{
+  "errorBoundary": {
+    "title": "An unexpected error occurred",
+    "description": "There was a problem displaying this page. Please try again.",
+    "retry": "Try again",
+    "home": "Back to start"
+  },
+  "material": {
+    "untitled": "Material",
+    "missing": "Material source not found.",
+    "unsupported": "Material type is not supported."
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "tests": "Tests",
+    "attendance": "Attendance",
+    "certificates": "Certificates",
+    "reports": "Reports",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "profile": "Profile",
+    "monitoring": "Monitoring",
+    "complaints": "Complaints",
+    "users": "Users",
+    "sync": "HEMIS Sync",
+    "students": "Students",
+    "grading": "Grading"
+  },
+  "layout": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNavigation": "Main navigation",
+    "userMenu": "User menu",
+    "logout": "Log out",
+    "notifications": "Notifications",
+    "unreadNotifications": "{{count}} unread notifications",
+    "selectLanguage": "Select language",
+    "skipToContent": "Skip to main content"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "login": {
+    "title": "Sign in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Log in",
+    "forgotPassword": "Forgot password?",
+    "rememberMe": "Remember me",
+    "error": "Invalid username or password",
+    "oneid": "Sign in with OneID",
+    "or": "or",
+    "usernameRequired": "Enter your username",
+    "passwordRequired": "Enter your password",
+    "oneIdProcessing": "Signing in with OneID...",
+    "oneIdError": "An error occurred while signing in with OneID",
+    "oneIdMissingCode": "OneID authorization code not found",
+    "backToLogin": "Back to sign in"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noData": "No data found",
+    "search": "Search",
+    "language": "Language",
+    "close": "Close",
+    "retry": "Try again"
+  },
+  "forbidden": {
+    "title": "403 — Access denied",
+    "description": "You do not have permission to access this page.",
+    "back": "Back to home"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "bell": {
+      "aria": "{{count}} unread notifications"
+    },
+    "empty": "No notifications",
+    "markAllRead": "Mark all as read",
+    "status": {
+      "connected": "Connected",
+      "connecting": "Connecting...",
+      "disconnected": "Disconnected"
+    }
+  },
+  "certificates": {
+    "title": "Certificates",
+    "description": "Certificates earned from completed courses",
+    "columns": {
+      "course": "Course",
+      "issuedAt": "Issued Date",
+      "number": "Certificate Number",
+      "actions": "Actions"
+    },
+    "noCertificates": "No certificates found",
+    "noCertificatesDescription": "You don't have any certificates yet. Certificates will appear here after completing courses.",
+    "viewCertificate": "View certificate for {{course}}",
+    "backToList": "Back to list",
+    "errorTitle": "Failed to load certificates",
+    "errorDescription": "An error occurred while fetching the certificates list.",
+    "retry": "Try again",
+    "viewer": {
+      "title": "Certificate",
+      "details": "Details",
+      "eSignStatus": "Digital Signature",
+      "eSigned": "Verified",
+      "notSigned": "Not signed",
+      "signerOrg": "Signing Organization",
+      "verification": "Verification",
+      "verificationDescription": "Scan the QR code or use the link to verify certificate authenticity",
+      "qrCodeAlt": "Certificate verification QR code",
+      "verifyUrl": "Verification link",
+      "copyUrl": "Copy link",
+      "actions": "Actions",
+      "downloadPdf": "Download PDF",
+      "pdfTitle": "Certificate for {{course}}",
+      "errorTitle": "Failed to load certificate",
+      "errorDescription": "An error occurred while fetching certificate details.",
+      "downloadSuccess": "Certificate downloaded successfully",
+      "downloadError": "Failed to download certificate",
+      "copySuccess": "Link copied to clipboard",
+      "copyError": "Failed to copy link"
+    }
+  },
+  "student": {
+    "dashboard": {
+      "title": "Dashboard",
+      "activeCourses": "Active courses",
+      "activeCoursesCount": "{{count}} active courses",
+      "noCourses": "No active courses",
+      "upcomingAssessments": "Upcoming assessments",
+      "upcomingAssessmentsCount": "{{count}} assessments",
+      "noAssessments": "No upcoming assessments",
+      "assessmentType": {
+        "TEST": "Test",
+        "ASSIGNMENT": "Assignment"
+      },
+      "attendance": "Overall attendance",
+      "attendanceDescription": "Your attendance percentage",
+      "errorTitle": "Failed to load data",
+      "errorDescription": "An error occurred while fetching dashboard data.",
+      "retry": "Try again"
+    },
+    "courses": {
+      "title": "Courses",
+      "searchPlaceholder": "Search by title or teacher",
+      "columns": {
+        "title": "Course title",
+        "teacher": "Teacher",
+        "progress": "Progress"
+      },
+      "empty": "No courses found",
+      "pageInfo": "Page {{current}} / {{total}}",
+      "errorTitle": "Failed to load courses",
+      "errorDescription": "An error occurred while fetching the course list.",
+      "retry": "Try again"
+    },
+    "courseDetail": {
+      "title": "Course details",
+      "tabs": {
+        "lessons": "Lessons",
+        "materials": "Materials",
+        "assessments": "Assessments",
+        "attendance": "Attendance"
+      },
+      "lessons": {
+        "title": "Lesson title",
+        "date": "Date",
+        "duration": "Duration",
+        "minutes": "{{count}} min"
+      },
+      "materials": {
+        "title": "Material title",
+        "type": "Type"
+      },
+      "assessments": {
+        "title": "Assessment title",
+        "type": "Type",
+        "timer": "Timer",
+        "minutes": "{{count}} min"
+      },
+      "attendance": {
+        "date": "Date",
+        "checkIn": "Check-in time",
+        "checkOut": "Check-out time"
+      },
+      "empty": "No data found",
+      "errorTitle": "Failed to load course details",
+      "errorDescription": "An error occurred while fetching course data.",
+      "retry": "Try again"
+    }
+  },
+  "teacher": {
+    "dashboard": {
+      "title": "Teacher panel",
+      "activeCourses": "Active courses",
+      "activeCoursesCount": "{{count}} active courses",
+      "noCourses": "No active courses",
+      "upcomingLessons": "Upcoming lessons",
+      "upcomingLessonsCount": "{{count}} lessons",
+      "noLessons": "No upcoming lessons",
+      "ungraded": "Ungraded work",
+      "ungradedDescription": "Number of submissions awaiting grading",
+      "errorTitle": "Failed to load data",
+      "errorDescription": "An error occurred while fetching dashboard data.",
+      "retry": "Try again"
+    },
+    "courseDetail": {
+      "title": "Course details",
+      "tabs": {
+        "lessons": "Lessons",
+        "materials": "Materials",
+        "assessments": "Assessments",
+        "students": "Students"
+      },
+      "lessons": {
+        "title": "Lesson title",
+        "date": "Date",
+        "duration": "Duration",
+        "minutes": "{{count}} min"
+      },
+      "materials": {
+        "title": "Material title",
+        "type": "Type"
+      },
+      "assessments": {
+        "title": "Assessment title",
+        "type": "Type",
+        "actions": "Actions",
+        "grade": "Grade"
+      },
+      "students": {
+        "name": "Student",
+        "enrolledAt": "Enrolled at"
+      },
+      "empty": "No data found",
+      "errorTitle": "Failed to load course details",
+      "errorDescription": "An error occurred while fetching course data.",
+      "retry": "Try again"
+    },
+    "lessonForm": {
+      "new": "New lesson",
+      "title": "Create a new lesson",
+      "description": "Enter the lesson details.",
+      "fields": {
+        "title": "Title",
+        "date": "Date",
+        "duration": "Duration (minutes)",
+        "videoUrl": "Video source (URL)",
+        "videoUpload": "Or upload a video",
+        "pdfUrl": "PDF material (URL)"
+      },
+      "errors": {
+        "titleRequired": "Title is required",
+        "dateRequired": "Date is required",
+        "durationPositive": "Duration must be a positive integer",
+        "videoUrlInvalid": "Invalid video URL",
+        "pdfUrlInvalid": "Invalid PDF URL"
+      },
+      "submitError": "Failed to save the lesson. Please try again."
+    },
+    "assessmentForm": {
+      "new": "New assessment",
+      "title": "Create a new assessment",
+      "description": "Enter the assessment type, questions, and settings.",
+      "fields": {
+        "title": "Title",
+        "type": "Type",
+        "timer": "Timer (minutes)",
+        "proctoring": "Proctoring required",
+        "questions": "Questions",
+        "questionText": "Question text",
+        "points": "Points"
+      },
+      "types": {
+        "TEST": "Test",
+        "ASSIGNMENT": "Assignment"
+      },
+      "questionNumber": "Question {{number}}",
+      "removeQuestion": "Remove question {{number}}",
+      "addQuestion": "Add question",
+      "errors": {
+        "titleRequired": "Title is required",
+        "timerPositive": "Timer must be a positive integer",
+        "questionsRequired": "Add at least one question",
+        "questionRequired": "Question text is required",
+        "pointsPositive": "Points must be a positive integer"
+      },
+      "submitError": "Failed to save the assessment. Please try again."
+    },
+    "grading": {
+      "pageTitle": "Grade submissions",
+      "title": "Grade {{name}}'s work",
+      "maxPoints": "Maximum points: {{points}}",
+      "work": "Student work",
+      "noWork": "No work text",
+      "review": "Review",
+      "grade": "Grade",
+      "fields": {
+        "score": "Score",
+        "comment": "Comment"
+      },
+      "errors": {
+        "scoreInvalid": "Score must be a number",
+        "scoreRange": "Score must be between 0 and {{max}}"
+      },
+      "columns": {
+        "student": "Student",
+        "submittedAt": "Submitted at",
+        "score": "Score",
+        "actions": "Actions"
+      },
+      "notGraded": "Not graded",
+      "empty": "No submissions",
+      "submitError": "Failed to save the grade. Please try again.",
+      "errorTitle": "Failed to load submissions",
+      "errorDescription": "An error occurred while fetching student work.",
+      "retry": "Try again"
+    }
+  },
+  "attendance": {
+    "checkIn": {
+      "checkIn": "Check in",
+      "checkOut": "Check out",
+      "notStarted": "The lesson has not started yet",
+      "sessionClosed": "Attendance session closed",
+      "error": "Failed to submit the time. Please try again."
+    },
+    "history": {
+      "title": "Attendance history",
+      "caption": "Your attendance records",
+      "date": "Date",
+      "course": "Course",
+      "checkIn": "Check in",
+      "checkOut": "Check out",
+      "empty": "No attendance records",
+      "error": "Failed to load attendance history",
+      "retry": "Try again"
+    },
+    "course": {
+      "title": "Attendance by lesson",
+      "student": "Student",
+      "checkIn": "Check in",
+      "checkOut": "Check out",
+      "noStudents": "No students checked in to this lesson",
+      "empty": "No attendance data",
+      "error": "Failed to load attendance data",
+      "retry": "Try again"
+    }
+  },
+  "video": {
+    "player": "Video player",
+    "play": "Play",
+    "pause": "Pause",
+    "mute": "Mute",
+    "unmute": "Unmute",
+    "volume": "Volume",
+    "seek": "Seek",
+    "fullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "playbackRate": "Playback speed",
+    "loading": "Loading video...",
+    "error": "Failed to load video",
+    "retry": "Try again"
+  },
+  "pdf": {
+    "loading": "Loading PDF...",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "pageInfo": "{{current}} / {{total}}",
+    "goToPage": "Go to page",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "enterFullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "searchPlaceholder": "Search in text",
+    "error": "Failed to load the PDF file or the file is corrupted",
+    "download": "Download file"
+  },
+  "test": {
+    "pageTitle": "Take test",
+    "start": "Start",
+    "loading": "Loading test...",
+    "errorTitle": "Failed to start the test",
+    "errorDescription": "An error occurred while loading the test questions.",
+    "retry": "Try again",
+    "timeRemaining": "Time remaining",
+    "answeredProgress": "{{answered}} / {{total}} answered",
+    "progressLabel": "Answered questions",
+    "currentQuestion": "Current question",
+    "questionNumber": "Question {{number}}",
+    "noQuestions": "This test has no questions.",
+    "markForReview": "Mark for review",
+    "marked": "Marked",
+    "previous": "Previous",
+    "next": "Next",
+    "questionPanel": "Questions",
+    "goToQuestion": "Go to question {{number}}",
+    "finish": "Finish",
+    "finishConfirmTitle": "Finish the test?",
+    "finishConfirmDescription": "You have answered {{answered}} of {{total}} questions. Once submitted, you cannot make changes.",
+    "confirmFinish": "Finish and submit",
+    "cancel": "Cancel",
+    "connectionLost": "Connection lost. Your answers will be re-sent automatically once the connection is restored.",
+    "resend": "Resend now",
+    "submittedTitle": "Test submitted",
+    "submittedDescription": "Your answers have been submitted successfully."
+  },
+  "proctoring": {
+    "title": "Proctoring monitoring",
+    "preview": "Camera preview",
+    "noCamera": "Camera preview is not available",
+    "requesting": "Requesting camera and microphone access...",
+    "permissionDenied": "Camera access was denied. Allow camera and microphone access to start a test that requires proctoring.",
+    "confirmHint": "Check the camera preview. Once you can see yourself clearly, confirm to start the test.",
+    "confirm": "Confirm and start",
+    "active": "Proctoring active — camera is being monitored.",
+    "faceWarning": "Warning: no face detected in frame or multiple faces detected."
+  },
+  "scorm": {
+    "player": "SCORM lesson",
+    "loading": "Loading SCORM package...",
+    "error": "Failed to load the SCORM package",
+    "support": "Contact technical support"
+  },
+  "admin": {
+    "pageInfo": "Page {{current}} / {{total}}",
+    "filters": {
+      "all": "All"
+    },
+    "roles": {
+      "SUPER_ADMIN": "Super admin",
+      "OTM_ADMIN": "Institution admin",
+      "DEKAN": "Dean",
+      "TEACHER": "Teacher",
+      "STUDENT": "Student"
+    },
+    "statuses": {
+      "ACTIVE": "Active",
+      "INACTIVE": "Inactive",
+      "SUSPENDED": "Suspended"
+    },
+    "directions": {
+      "BACHELOR": "Bachelor",
+      "MASTER": "Master"
+    },
+    "users": {
+      "title": "Users",
+      "filters": {
+        "role": "Role",
+        "otm": "Institution",
+        "faculty": "Faculty",
+        "status": "Status"
+      },
+      "columns": {
+        "name": "Full name",
+        "role": "Role",
+        "otm": "Institution",
+        "faculty": "Faculty",
+        "status": "Status"
+      },
+      "empty": "No users found",
+      "errorTitle": "Failed to load users",
+      "errorDescription": "An error occurred while fetching the user list.",
+      "retry": "Try again"
+    },
+    "courses": {
+      "title": "Courses",
+      "create": "New course",
+      "filters": {
+        "direction": "Direction",
+        "semester": "Semester",
+        "teacher": "Teacher"
+      },
+      "columns": {
+        "title": "Course title",
+        "direction": "Direction",
+        "semester": "Semester",
+        "teacher": "Teacher",
+        "capacity": "Capacity"
+      },
+      "semesterLabel": "Semester {{semester}}",
+      "empty": "No courses found",
+      "errorTitle": "Failed to load courses",
+      "errorDescription": "An error occurred while fetching the course list.",
+      "retry": "Try again"
+    },
+    "courseForm": {
+      "title": "Create a new course",
+      "fields": {
+        "title": "Course title",
+        "direction": "Direction",
+        "semester": "Semester",
+        "teacher": "Teacher",
+        "capacity": "Capacity (number of students)"
+      },
+      "capacityIndicator": "Contingent fill level",
+      "capacityOf": "{{capacity}} / {{limit}} students",
+      "resolutionLink": "Capacity exceeds the limit — capped per Resolution No. 559, Clause 20.",
+      "resolutionLinkLabel": "Resolution No. 559, Clause 20",
+      "submit": "Create course",
+      "submitError": "Failed to save the course. Please try again."
+    },
+    "sync": {
+      "title": "HEMIS synchronization",
+      "description": "Synchronize student, teacher and course data with HEMIS.",
+      "controls": {
+        "title": "Synchronization controls",
+        "students": "Sync students",
+        "teachers": "Sync teachers",
+        "courses": "Sync courses"
+      },
+      "status": {
+        "label": "Status",
+        "idle": "Idle",
+        "started": "Started",
+        "running": "Running",
+        "completed": "Completed",
+        "error": "Error"
+      },
+      "progress": {
+        "label": "Synchronization progress",
+        "processed": "{{count}} records processed"
+      },
+      "report": {
+        "title": "Final report",
+        "processed": "Processed",
+        "created": "Newly added",
+        "errors": "Errors"
+      },
+      "history": {
+        "title": "Synchronization history",
+        "date": "Date",
+        "type": "Type",
+        "status": "Status",
+        "report": "Final report",
+        "reportSummary": "{{processed}} processed / {{created}} new / {{errors}} errors",
+        "inProgress": "—",
+        "empty": "No synchronization history"
+      },
+      "type": {
+        "students": "Students",
+        "teachers": "Teachers",
+        "courses": "Courses"
+      },
+      "error": {
+        "reason": "Error reason",
+        "unknown": "An unknown error occurred",
+        "downloadLog": "Download logs",
+        "downloading": "Downloading..."
+      },
+      "loadError": "Failed to load synchronization history",
+      "startError": "Failed to start synchronization. Please try again.",
+      "retry": "Retry"
+    }
+  },
+  "monitoring": {
+    "title": "Monitoring panel",
+    "errorTitle": "Failed to load data",
+    "errorDescription": "An error occurred while fetching monitoring data.",
+    "retry": "Retry",
+    "indicators": {
+      "students": "Total students",
+      "teachers": "Total teachers",
+      "courses": "Total courses"
+    },
+    "table": {
+      "title": "Teacher-student ratio",
+      "description": "1:50 ratio compliance per institution",
+      "otm": "Institution",
+      "students": "Students",
+      "teachers": "Teachers",
+      "courses": "Courses",
+      "ratio": "Ratio",
+      "violation": "Norm violated",
+      "empty": "No institution data found"
+    },
+    "chart": {
+      "title": "Ratio chart",
+      "description": "Teacher-student ratio by institution"
+    },
+    "contingent": {
+      "title": "Contingent statistics",
+      "description": "Distribution by education direction and institution",
+      "bachelor": "Bachelor",
+      "master": "Master",
+      "total": "Total",
+      "empty": "No data for the selected period"
+    },
+    "filter": {
+      "from": "Start date",
+      "to": "End date"
+    },
+    "export": {
+      "csv": "Export CSV",
+      "pdf": "Export PDF"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Generate and analyze various reports",
+    "errorTitle": "Failed to load reports",
+    "errorDescription": "An error occurred while loading report types",
+    "selector": {
+      "title": "Select report type",
+      "label": "Report type",
+      "placeholder": "Choose a report type..."
+    },
+    "tabs": {
+      "data": "Data",
+      "export": "Export"
+    },
+    "filters": {
+      "title": "Report filters",
+      "startDate": "Start date",
+      "endDate": "End date",
+      "selectDate": "Select date",
+      "faculty": "Faculty",
+      "allFaculties": "All faculties",
+      "direction": "Direction",
+      "allDirections": "All directions",
+      "course": "Course",
+      "allCourses": "All courses",
+      "clear": "Clear filters"
+    },
+    "types": {
+      "attendance": {
+        "name": "Attendance",
+        "title": "Attendance Report",
+        "description": "Student attendance statistics by course and time period"
+      },
+      "grades": {
+        "name": "Grades",
+        "title": "Grades Report",
+        "description": "Assessment results and student performance data"
+      },
+      "progress": {
+        "name": "Progress",
+        "title": "Progress Report",
+        "description": "Course completion statistics and student progress"
+      },
+      "certificates": {
+        "name": "Certificates",
+        "title": "Certificates Report",
+        "description": "Issued certificates and verification status"
+      }
+    },
+    "table": {
+      "noData": "No data available",
+      "noDataDescription": "Try adjusting your filters to see results",
+      "errorLoading": "Failed to load report data",
+      "totalRecords": "{{count}} records found",
+      "generatedAt": "Generated on {{date}}",
+      "unsupportedType": "Unsupported report type"
+    },
+    "attendance": {
+      "studentName": "Student",
+      "courseTitle": "Course",
+      "totalLessons": "Total lessons",
+      "attendedLessons": "Attended",
+      "percentage": "Attendance %",
+      "lastAttendance": "Last attendance"
+    },
+    "grades": {
+      "studentName": "Student",
+      "courseTitle": "Course",
+      "assessmentTitle": "Assessment",
+      "score": "Score",
+      "maxScore": "Max score",
+      "percentage": "Grade %",
+      "submittedAt": "Submitted"
+    },
+    "progress": {
+      "studentName": "Student",
+      "courseTitle": "Course",
+      "lessonsCompleted": "Completed",
+      "totalLessons": "Total lessons",
+      "percentage": "Progress %",
+      "lastActivity": "Last activity"
+    },
+    "certificates": {
+      "studentName": "Student",
+      "courseTitle": "Course",
+      "certificateNumber": "Certificate #",
+      "issuedAt": "Issued",
+      "status": "Status",
+      "verified": "Verified",
+      "pending": "Pending"
+    },
+    "export": {
+      "title": "Export reports",
+      "error": "Export failed",
+      "csv": {
+        "title": "CSV Export",
+        "description": "Export data as CSV file for spreadsheet analysis",
+        "button": "Export CSV"
+      },
+      "pdf": {
+        "title": "PDF Export",
+        "description": "Export formatted report as PDF document",
+        "button": "Export PDF"
+      },
+      "status": {
+        "title": "Export status",
+        "export": "Export",
+        "progress": "Progress",
+        "download": "Download",
+        "loading": "Loading export status...",
+        "pending": "Pending",
+        "processing": "Processing",
+        "completed": "Completed",
+        "error": "Failed"
+      }
+    }
+  },
+  "feedback": {
+    "title": "Submit Complaint",
+    "description": "Report issues related to your learning process",
+    "form": {
+      "title": "Complaint Form",
+      "category": "Complaint Type",
+      "categoryPlaceholder": "Select complaint type",
+      "course": "Related Course",
+      "coursePlaceholder": "Select a course (optional)",
+      "text": "Complaint Details",
+      "textPlaceholder": "Describe the issue in detail...",
+      "attachments": "Attachments",
+      "attachmentsHint": "Attach documents or images if necessary",
+      "submit": "Submit Complaint",
+      "submitting": "Submitting...",
+      "cancel": "Cancel"
+    },
+    "validation": {
+      "categoryRequired": "Complaint type is required",
+      "textRequired": "Complaint details are required",
+      "textMinLength": "Complaint text must be at least 20 characters long"
+    },
+    "categories": {
+      "teaching_quality": "Teaching Quality",
+      "technical_issues": "Technical Issues",
+      "assessment": "Assessment Issues",
+      "course_content": "Course Content",
+      "teacher_conduct": "Teacher Conduct",
+      "system_access": "System Access Issues",
+      "other": "Other"
+    },
+    "success": {
+      "title": "Complaint Submitted",
+      "description": "Your complaint has been submitted successfully.",
+      "number": "Complaint number: {{number}}",
+      "next": "Awaiting response. You will receive notifications about status changes."
+    },
+    "history": {
+      "title": "Complaint History",
+      "description": "Your submitted complaints and their status",
+      "columns": {
+        "date": "Date",
+        "number": "Number",
+        "category": "Type",
+        "course": "Course",
+        "status": "Status",
+        "response": "Response"
+      },
+      "status": {
+        "new": "New",
+        "in_review": "In Review",
+        "answered": "Answered",
+        "closed": "Closed"
+      },
+      "noResponse": "Awaiting response",
+      "viewResponse": "View response",
+      "empty": "No complaints found",
+      "emptyDescription": "You haven't submitted any complaints yet.",
+      "errorTitle": "Failed to load complaint history",
+      "errorDescription": "An error occurred while fetching the complaints list.",
+      "retry": "Try again"
+    },
+    "error": {
+      "submitFailed": "Failed to submit complaint",
+      "submitRetry": "Please try again",
+      "networkError": "Network connection issue",
+      "serverError": "Server error",
+      "validationError": "Invalid data"
+    }
+  },
+  "complaints": {
+    "page": {
+      "title": "Complaints",
+      "description": "Submit complaints and view history",
+      "tabs": {
+        "newComplaint": "New Complaint",
+        "history": "Complaint History"
+      }
+    },
+    "form": {
+      "title": "Submit Complaint",
+      "description": "Report issues related to your learning process",
+      "category": {
+        "label": "Complaint Category",
+        "placeholder": "Select category",
+        "description": "Please specify the type of complaint"
+      },
+      "course": {
+        "label": "Related Course",
+        "placeholder": "Select course",
+        "noCourse": "Not related to specific course",
+        "description": "Select if complaint is related to specific course"
+      },
+      "text": {
+        "label": "Complaint Details",
+        "placeholder": "Describe the issue in detail...",
+        "description": "Please enter at least {{minLength}} characters"
+      },
+      "attachments": {
+        "label": "Attachments",
+        "description": "Maximum {{maxSize}}, up to {{maxCount}} files",
+        "select": "Select Files",
+        "remove": "Remove file"
+      },
+      "submit": "Submit Complaint",
+      "success": {
+        "title": "Complaint Submitted Successfully",
+        "description": "Your complaint has been received and will be reviewed",
+        "trackingNumber": "Tracking Number:"
+      },
+      "validation": {
+        "invalidCategory": "Invalid category",
+        "textRequired": "Complaint text is required",
+        "textTooShort": "Complaint text is too short",
+        "tooManyFiles": "Too many files",
+        "fileTooLarge": "File size is too large",
+        "invalidFileType": "Invalid file type"
+      }
+    },
+    "categories": {
+      "technical": "Technical Issue",
+      "content": "Course Content",
+      "teacher": "Teacher Related",
+      "assessment": "Assessment Issue",
+      "other": "Other"
+    },
+    "status": {
+      "new": "New",
+      "in_review": "In Review",
+      "answered": "Answered",
+      "closed": "Closed"
+    },
+    "history": {
+      "title": "Complaint History",
+      "description": "Your submitted complaints and their status",
+      "table": {
+        "date": "Date",
+        "subject": "Subject",
+        "status": "Status",
+        "response": "Response",
+        "actions": "Actions"
+      },
+      "noResponse": "No response yet",
+      "viewDetails": "View Details",
+      "details": {
+        "title": "Complaint Details",
+        "subtitle": "Complaint Number: {{number}}",
+        "status": "Status",
+        "createdAt": "Created Date",
+        "number": "Number",
+        "response": "Response"
+      },
+      "empty": {
+        "title": "No Complaints",
+        "description": "You haven't submitted any complaints yet"
+      },
+      "error": {
+        "title": "Error Occurred",
+        "description": "Problem loading complaint history"
+      }
+    }
+  }
+}

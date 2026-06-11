@@ -1,0 +1,889 @@
+{
+  "errorBoundary": {
+    "title": "Kutilmagan xatolik yuz berdi",
+    "description": "Sahifani ko'rsatishda muammo yuzaga keldi. Iltimos, qayta urinib ko'ring.",
+    "retry": "Qayta urinish",
+    "home": "Boshiga qaytish"
+  },
+  "material": {
+    "untitled": "Material",
+    "missing": "Material manbai topilmadi.",
+    "unsupported": "Material turi qo'llab-quvvatlanmaydi."
+  },
+  "nav": {
+    "dashboard": "Boshqaruv paneli",
+    "courses": "Kurslar",
+    "tests": "Testlar",
+    "attendance": "Davomat",
+    "certificates": "Sertifikatlar",
+    "reports": "Hisobotlar",
+    "notifications": "Bildirishnomalar",
+    "settings": "Sozlamalar",
+    "profile": "Profil",
+    "monitoring": "Monitoring",
+    "complaints": "Shikoyatlar",
+    "users": "Foydalanuvchilar",
+    "sync": "HEMIS sinxronizatsiyasi",
+    "students": "Talabalar",
+    "grading": "Baholash"
+  },
+  "layout": {
+    "openMenu": "Menyuni ochish",
+    "closeMenu": "Menyuni yopish",
+    "mainNavigation": "Asosiy navigatsiya",
+    "userMenu": "Foydalanuvchi menyusi",
+    "logout": "Chiqish",
+    "notifications": "Bildirishnomalar",
+    "unreadNotifications": "{{count}} ta o'qilmagan bildirishnoma",
+    "selectLanguage": "Tilni tanlash",
+    "skipToContent": "Asosiy kontentga o'tish"
+  },
+  "buttons": {
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "submit": "Yuborish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "create": "Yaratish",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "confirm": "Tasdiqlash",
+    "close": "Yopish"
+  },
+  "login": {
+    "title": "Tizimga kirish",
+    "username": "Foydalanuvchi nomi",
+    "password": "Parol",
+    "submit": "Kirish",
+    "forgotPassword": "Parolni unutdingizmi?",
+    "rememberMe": "Meni eslab qol",
+    "error": "Foydalanuvchi nomi yoki parol noto'g'ri",
+    "oneid": "OneID orqali kirish",
+    "or": "yoki",
+    "usernameRequired": "Foydalanuvchi nomini kiriting",
+    "passwordRequired": "Parolni kiriting",
+    "oneIdProcessing": "OneID orqali kirish amalga oshirilmoqda...",
+    "oneIdError": "OneID orqali kirishda xatolik yuz berdi",
+    "oneIdMissingCode": "OneID avtorizatsiya kodi topilmadi",
+    "backToLogin": "Kirish sahifasiga qaytish"
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "noData": "Ma'lumot topilmadi",
+    "search": "Qidirish",
+    "language": "Til",
+    "close": "Yopish",
+    "retry": "Qayta urinish"
+  },
+  "forbidden": {
+    "title": "403 — Ruxsat yo'q",
+    "description": "Sizda ushbu sahifaga kirish uchun ruxsat yo'q.",
+    "back": "Bosh sahifaga qaytish"
+  },
+  "notifications": {
+    "title": "Bildirishnomalar",
+    "bell": {
+      "aria": "{{count}} ta o'qilmagan bildirishnoma"
+    },
+    "empty": "Bildirishnomalar yo'q",
+    "markAllRead": "Hammasini o'qilgan deb belgilash",
+    "status": {
+      "connected": "Ulangan",
+      "connecting": "Ulanmoqda...", 
+      "disconnected": "Uzilgan"
+    }
+  },
+  "certificates": {
+    "title": "Sertifikatlar",
+    "description": "Yakunlagan kurslaringiz uchun olingan sertifikatlar",
+    "columns": {
+      "course": "Kurs",
+      "issuedAt": "Berilgan sana",
+      "number": "Sertifikat raqami",
+      "actions": "Amallar"
+    },
+    "noCertificates": "Sertifikatlar topilmadi",
+    "noCertificatesDescription": "Hozircha sizda birorta sertifikat yo'q. Kurslarni yakunlashdan keyin sertifikatlar bu yerda ko'rinadi.",
+    "viewCertificate": "{{course}} kursi sertifikatini ko'rish",
+    "backToList": "Ro'yxatga qaytish",
+    "errorTitle": "Sertifikatlarni yuklab bo'lmadi",
+    "errorDescription": "Sertifikatlar ro'yxatini olishda xatolik yuz berdi.",
+    "retry": "Qayta urinish",
+    "viewer": {
+      "title": "Sertifikat",
+      "details": "Ma'lumotlar",
+      "eSignStatus": "Elektron imzo",
+      "eSigned": "Tasdiqlangan",
+      "notSigned": "Imzolanmagan",
+      "signerOrg": "Imzolovchi tashkilot",
+      "verification": "Tasdiqlash",
+      "verificationDescription": "Sertifikat haqiqiyligini tekshirish uchun QR kodni skanerlang yoki havola orqali o'ting",
+      "qrCodeAlt": "Sertifikat tasdiqlash QR kodi",
+      "verifyUrl": "Tasdiqlash havolasi",
+      "copyUrl": "Havolani nusxalash",
+      "actions": "Amallar",
+      "downloadPdf": "PDF yuklab olish",
+      "pdfTitle": "{{course}} kursi sertifikati",
+      "errorTitle": "Sertifikatni yuklab bo'lmadi",
+      "errorDescription": "Sertifikat ma'lumotlarini olishda xatolik yuz berdi.",
+      "downloadSuccess": "Sertifikat muvaffaqiyatli yuklab olindi",
+      "downloadError": "Sertifikatni yuklab olishda xatolik yuz berdi",
+      "copySuccess": "Havola nusxalandi",
+      "copyError": "Havolani nusxalashda xatolik yuz berdi"
+    }
+  },
+  "student": {
+    "dashboard": {
+      "title": "Boshqaruv paneli",
+      "activeCourses": "Faol kurslar",
+      "activeCoursesCount": "{{count}} ta faol kurs",
+      "noCourses": "Faol kurslar yo'q",
+      "upcomingAssessments": "Yaqinlashayotgan baholashlar",
+      "upcomingAssessmentsCount": "{{count}} ta baholash",
+      "noAssessments": "Yaqinlashayotgan baholashlar yo'q",
+      "assessmentType": {
+        "TEST": "Test",
+        "ASSIGNMENT": "Topshiriq"
+      },
+      "attendance": "Umumiy davomat",
+      "attendanceDescription": "Davomat foizingiz",
+      "errorTitle": "Ma'lumotlarni yuklab bo'lmadi",
+      "errorDescription": "Dashboard ma'lumotlarini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "courses": {
+      "title": "Kurslar",
+      "searchPlaceholder": "Nom yoki o'qituvchi bo'yicha qidirish",
+      "columns": {
+        "title": "Kurs nomi",
+        "teacher": "O'qituvchi",
+        "progress": "Progress"
+      },
+      "empty": "Kurslar topilmadi",
+      "pageInfo": "{{current}} / {{total}}-sahifa",
+      "errorTitle": "Kurslarni yuklab bo'lmadi",
+      "errorDescription": "Kurslar ro'yxatini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "courseDetail": {
+      "title": "Kurs tafsiloti",
+      "tabs": {
+        "lessons": "Darslar",
+        "materials": "Materiallar",
+        "assessments": "Baholashlar",
+        "attendance": "Davomat"
+      },
+      "lessons": {
+        "title": "Dars nomi",
+        "date": "Sana",
+        "duration": "Davomiyligi",
+        "minutes": "{{count}} daqiqa"
+      },
+      "materials": {
+        "title": "Material nomi",
+        "type": "Turi"
+      },
+      "assessments": {
+        "title": "Baholash nomi",
+        "type": "Turi",
+        "timer": "Taymer",
+        "minutes": "{{count}} daqiqa"
+      },
+      "attendance": {
+        "date": "Sana",
+        "checkIn": "Kirish vaqti",
+        "checkOut": "Chiqish vaqti"
+      },
+      "empty": "Ma'lumot topilmadi",
+      "errorTitle": "Kurs tafsilotini yuklab bo'lmadi",
+      "errorDescription": "Kurs ma'lumotlarini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    }
+  },
+  "teacher": {
+    "dashboard": {
+      "title": "O'qituvchi paneli",
+      "activeCourses": "Faol kurslar",
+      "activeCoursesCount": "{{count}} ta faol kurs",
+      "noCourses": "Faol kurslar yo'q",
+      "upcomingLessons": "Yaqin darslar",
+      "upcomingLessonsCount": "{{count}} ta dars",
+      "noLessons": "Yaqin darslar yo'q",
+      "ungraded": "Baholanmagan ishlar",
+      "ungradedDescription": "Baholanishi kutilayotgan ishlar soni",
+      "errorTitle": "Ma'lumotlarni yuklab bo'lmadi",
+      "errorDescription": "Dashboard ma'lumotlarini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "courseDetail": {
+      "title": "Kurs tafsiloti",
+      "tabs": {
+        "lessons": "Darslar",
+        "materials": "Materiallar",
+        "assessments": "Baholashlar",
+        "students": "Talabalar"
+      },
+      "lessons": {
+        "title": "Dars nomi",
+        "date": "Sana",
+        "duration": "Davomiyligi",
+        "minutes": "{{count}} daqiqa"
+      },
+      "materials": {
+        "title": "Material nomi",
+        "type": "Turi"
+      },
+      "assessments": {
+        "title": "Baholash nomi",
+        "type": "Turi",
+        "actions": "Amallar",
+        "grade": "Baholash"
+      },
+      "students": {
+        "name": "Talaba",
+        "enrolledAt": "Yozilgan sana"
+      },
+      "empty": "Ma'lumot topilmadi",
+      "errorTitle": "Kurs tafsilotini yuklab bo'lmadi",
+      "errorDescription": "Kurs ma'lumotlarini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "lessonForm": {
+      "new": "Yangi dars",
+      "title": "Yangi dars yaratish",
+      "description": "Dars ma'lumotlarini kiriting.",
+      "fields": {
+        "title": "Sarlavha",
+        "date": "Sana",
+        "duration": "Davomiyligi (daqiqa)",
+        "videoUrl": "Video manbasi (URL)",
+        "videoUpload": "Yoki video yuklash",
+        "pdfUrl": "PDF material (URL)"
+      },
+      "errors": {
+        "titleRequired": "Sarlavha majburiy",
+        "dateRequired": "Sana majburiy",
+        "durationPositive": "Davomiylik musbat butun son bo'lishi kerak",
+        "videoUrlInvalid": "Video URL noto'g'ri",
+        "pdfUrlInvalid": "PDF URL noto'g'ri"
+      },
+      "submitError": "Darsni saqlab bo'lmadi. Qayta urinib ko'ring."
+    },
+    "assessmentForm": {
+      "new": "Yangi baholash",
+      "title": "Yangi baholash yaratish",
+      "description": "Baholash turi, savollar va sozlamalarni kiriting.",
+      "fields": {
+        "title": "Sarlavha",
+        "type": "Turi",
+        "timer": "Taymer (daqiqa)",
+        "proctoring": "Proktoring talab qilinadi",
+        "questions": "Savollar",
+        "questionText": "Savol matni",
+        "points": "Ball"
+      },
+      "types": {
+        "TEST": "Test",
+        "ASSIGNMENT": "Topshiriq"
+      },
+      "questionNumber": "{{number}}-savol",
+      "removeQuestion": "{{number}}-savolni o'chirish",
+      "addQuestion": "Savol qo'shish",
+      "errors": {
+        "titleRequired": "Sarlavha majburiy",
+        "timerPositive": "Taymer musbat butun son bo'lishi kerak",
+        "questionsRequired": "Kamida bitta savol kiriting",
+        "questionRequired": "Savol matni majburiy",
+        "pointsPositive": "Ball musbat butun son bo'lishi kerak"
+      },
+      "submitError": "Baholashni saqlab bo'lmadi. Qayta urinib ko'ring."
+    },
+    "grading": {
+      "pageTitle": "Ishlarni baholash",
+      "title": "{{name}} ishini baholash",
+      "maxPoints": "Maksimal ball: {{points}}",
+      "work": "Talaba ishi",
+      "noWork": "Ish matni yo'q",
+      "review": "Ko'rib chiqish",
+      "grade": "Baholash",
+      "fields": {
+        "score": "Ball",
+        "comment": "Izoh"
+      },
+      "errors": {
+        "scoreInvalid": "Ball raqam bo'lishi kerak",
+        "scoreRange": "Ball 0 dan {{max}} gacha bo'lishi kerak"
+      },
+      "columns": {
+        "student": "Talaba",
+        "submittedAt": "Topshirilgan vaqt",
+        "score": "Ball",
+        "actions": "Amallar"
+      },
+      "notGraded": "Baholanmagan",
+      "empty": "Topshirilgan ishlar yo'q",
+      "submitError": "Bahoni saqlab bo'lmadi. Qayta urinib ko'ring.",
+      "errorTitle": "Ishlarni yuklab bo'lmadi",
+      "errorDescription": "Talaba ishlarini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    }
+  },
+  "attendance": {
+    "checkIn": {
+      "checkIn": "Darsga kirdim",
+      "checkOut": "Darsdan chiqdim",
+      "notStarted": "Dars hali boshlanmadi",
+      "sessionClosed": "Davomat sessiyasi yopilgan",
+      "error": "Vaqtni yuborib bo'lmadi. Qayta urinib ko'ring."
+    },
+    "history": {
+      "title": "Davomat tarixi",
+      "caption": "Sizning davomat yozuvlaringiz",
+      "date": "Sana",
+      "course": "Kurs",
+      "checkIn": "Kirish",
+      "checkOut": "Chiqish",
+      "empty": "Davomat yozuvlari yo'q",
+      "error": "Davomat tarixini yuklab bo'lmadi",
+      "retry": "Qayta urinish"
+    },
+    "course": {
+      "title": "Dars bo'yicha davomat",
+      "student": "Talaba",
+      "checkIn": "Kirish",
+      "checkOut": "Chiqish",
+      "noStudents": "Bu darsga kirgan talabalar yo'q",
+      "empty": "Davomat ma'lumotlari yo'q",
+      "error": "Davomat ma'lumotlarini yuklab bo'lmadi",
+      "retry": "Qayta urinish"
+    }
+  },
+  "video": {
+    "player": "Video pleyer",
+    "play": "Ijro etish",
+    "pause": "To'xtatish",
+    "mute": "Ovozni o'chirish",
+    "unmute": "Ovozni yoqish",
+    "volume": "Ovoz balandligi",
+    "seek": "Ko'rsatish vaqti",
+    "fullscreen": "To'liq ekran",
+    "exitFullscreen": "To'liq ekrandan chiqish",
+    "playbackRate": "Ijro tezligi",
+    "loading": "Video yuklanmoqda...",
+    "error": "Videoni yuklab bo'lmadi",
+    "retry": "Qayta urinish"
+  },
+  "pdf": {
+    "loading": "PDF yuklanmoqda...",
+    "previousPage": "Oldingi sahifa",
+    "nextPage": "Keyingi sahifa",
+    "pageInfo": "{{current}} / {{total}}",
+    "goToPage": "Sahifaga o'tish",
+    "zoomIn": "Kattalashtirish",
+    "zoomOut": "Kichiklashtirish",
+    "enterFullscreen": "To'liq ekran",
+    "exitFullscreen": "To'liq ekrandan chiqish",
+    "searchPlaceholder": "Matn bo'yicha qidirish",
+    "error": "PDF faylni yuklab bo'lmadi yoki fayl buzilgan",
+    "download": "Faylni yuklab olish"
+  },
+  "scorm": {
+    "player": "SCORM dars",
+    "loading": "SCORM paket yuklanmoqda...",
+    "error": "SCORM paketni yuklab bo'lmadi",
+    "support": "Texnik yordamga murojaat qilish"
+  },
+  "test": {
+    "pageTitle": "Test topshirish",
+    "start": "Boshlash",
+    "loading": "Test yuklanmoqda...",
+    "errorTitle": "Testni boshlab bo'lmadi",
+    "errorDescription": "Test savollarini yuklashda xatolik yuz berdi.",
+    "retry": "Qayta urinish",
+    "timeRemaining": "Qolgan vaqt",
+    "answeredProgress": "{{answered}} / {{total}} javob berildi",
+    "progressLabel": "Javob berilgan savollar",
+    "currentQuestion": "Joriy savol",
+    "questionNumber": "{{number}}-savol",
+    "noQuestions": "Ushbu testda savollar yo'q.",
+    "markForReview": "Ko'rib chiqish uchun belgilash",
+    "marked": "Belgilangan",
+    "previous": "Oldingi",
+    "next": "Keyingi",
+    "questionPanel": "Savollar",
+    "goToQuestion": "{{number}}-savolga o'tish",
+    "finish": "Yakunlash",
+    "finishConfirmTitle": "Testni yakunlaysizmi?",
+    "finishConfirmDescription": "Siz {{total}} ta savoldan {{answered}} tasiga javob berdingiz. Yuborilgandan so'ng o'zgartirib bo'lmaydi.",
+    "confirmFinish": "Yakunlash va yuborish",
+    "cancel": "Bekor qilish",
+    "connectionLost": "Ulanish uzildi. Ulanish tiklanganda javoblaringiz avtomatik qayta yuboriladi.",
+    "resend": "Hozir qayta yuborish",
+    "submittedTitle": "Test yuborildi",
+    "submittedDescription": "Javoblaringiz muvaffaqiyatli yuborildi."
+  },
+  "proctoring": {
+    "title": "Proktoring nazorati",
+    "preview": "Kamera ko'rinishi",
+    "noCamera": "Kamera ko'rinishi mavjud emas",
+    "requesting": "Kamera va mikrofonga ruxsat so'ralmoqda...",
+    "permissionDenied": "Kameraga ruxsat berilmadi. Proktoring talab qilinadigan testni boshlash uchun kamera va mikrofonga ruxsat bering.",
+    "confirmHint": "Kamera ko'rinishini tekshiring. O'zingizni aniq ko'rganingizdan so'ng testni boshlash uchun tasdiqlang.",
+    "confirm": "Tasdiqlash va boshlash",
+    "active": "Proktoring faol — kamera nazorat ostida.",
+    "faceWarning": "Ogohlantirish: kadrda yuz aniqlanmadi yoki bir nechta yuz aniqlandi."
+  },
+  "admin": {
+    "pageInfo": "{{current}} / {{total}}-sahifa",
+    "filters": {
+      "all": "Barchasi"
+    },
+    "roles": {
+      "SUPER_ADMIN": "Super administrator",
+      "OTM_ADMIN": "OTM administratori",
+      "DEKAN": "Dekan",
+      "TEACHER": "O'qituvchi",
+      "STUDENT": "Talaba"
+    },
+    "statuses": {
+      "ACTIVE": "Faol",
+      "INACTIVE": "Nofaol",
+      "SUSPENDED": "To'xtatilgan"
+    },
+    "directions": {
+      "BACHELOR": "Bakalavriat",
+      "MASTER": "Magistratura"
+    },
+    "users": {
+      "title": "Foydalanuvchilar",
+      "filters": {
+        "role": "Rol",
+        "otm": "OTM",
+        "faculty": "Fakultet",
+        "status": "Holat"
+      },
+      "columns": {
+        "name": "F.I.Sh.",
+        "role": "Rol",
+        "otm": "OTM",
+        "faculty": "Fakultet",
+        "status": "Holat"
+      },
+      "empty": "Foydalanuvchilar topilmadi",
+      "errorTitle": "Foydalanuvchilarni yuklab bo'lmadi",
+      "errorDescription": "Foydalanuvchilar ro'yxatini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "courses": {
+      "title": "Kurslar",
+      "create": "Yangi kurs",
+      "filters": {
+        "direction": "Ta'lim yo'nalishi",
+        "semester": "Semestr",
+        "teacher": "O'qituvchi"
+      },
+      "columns": {
+        "title": "Kurs nomi",
+        "direction": "Yo'nalish",
+        "semester": "Semestr",
+        "teacher": "O'qituvchi",
+        "capacity": "Sig'im"
+      },
+      "semesterLabel": "{{semester}}-semestr",
+      "empty": "Kurslar topilmadi",
+      "errorTitle": "Kurslarni yuklab bo'lmadi",
+      "errorDescription": "Kurslar ro'yxatini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "courseForm": {
+      "title": "Yangi kurs yaratish",
+      "fields": {
+        "title": "Kurs nomi",
+        "direction": "Ta'lim yo'nalishi",
+        "semester": "Semestr",
+        "teacher": "O'qituvchi",
+        "capacity": "Sig'im (talabalar soni)"
+      },
+      "capacityIndicator": "Kontingent to'ldirilish darajasi",
+      "capacityOf": "{{capacity}} / {{limit}} talaba",
+      "resolutionLink": "Sig'im chegaradan oshib ketdi — 559-son qaror, 20-bandiga muvofiq cheklangan.",
+      "resolutionLinkLabel": "559-son qaror, 20-band",
+      "submit": "Kurs yaratish",
+      "submitError": "Kursni saqlab bo'lmadi. Qayta urinib ko'ring."
+    },
+    "sync": {
+      "title": "HEMIS sinxronizatsiyasi",
+      "description": "HEMIS bilan talaba, oʻqituvchi va kurs maʼlumotlarini sinxronlash.",
+      "controls": {
+        "title": "Sinxronlash boshqaruvi",
+        "students": "Talabalarni sinxronlash",
+        "teachers": "O'qituvchilarni sinxronlash",
+        "courses": "Kurslarni sinxronlash"
+      },
+      "status": {
+        "label": "Holat",
+        "idle": "Kutilmoqda",
+        "started": "Boshlandi",
+        "running": "Ishlamoqda",
+        "completed": "Yakunlandi",
+        "error": "Xato"
+      },
+      "progress": {
+        "label": "Sinxronlash jarayoni",
+        "processed": "{{count}} ta yozuv qayta ishlandi"
+      },
+      "report": {
+        "title": "Yakuniy hisobot",
+        "processed": "Qayta ishlangan",
+        "created": "Yangi qo'shilgan",
+        "errors": "Xatolar"
+      },
+      "history": {
+        "title": "Sinxronlash tarixi",
+        "date": "Sana",
+        "type": "Tur",
+        "status": "Holat",
+        "report": "Yakuniy hisobot",
+        "reportSummary": "{{processed}} qayta ishlangan / {{created}} yangi / {{errors}} xato",
+        "inProgress": "—",
+        "empty": "Sinxronlash tarixi mavjud emas"
+      },
+      "type": {
+        "students": "Talabalar",
+        "teachers": "O'qituvchilar",
+        "courses": "Kurslar"
+      },
+      "error": {
+        "reason": "Xato sababi",
+        "unknown": "Noma'lum xato yuz berdi",
+        "downloadLog": "Loglarni yuklab olish",
+        "downloading": "Yuklab olinmoqda..."
+      },
+      "loadError": "Sinxronlash tarixini yuklab boʻlmadi",
+      "startError": "Sinxronlashni boshlab boʻlmadi. Qayta urinib koʻring.",
+      "retry": "Qayta urinish"
+    }
+  },
+  "monitoring": {
+    "title": "Monitoring paneli",
+    "errorTitle": "Ma'lumotlarni yuklab bo'lmadi",
+    "errorDescription": "Monitoring ma'lumotlarini olishda xatolik yuz berdi.",
+    "retry": "Qayta urinish",
+    "indicators": {
+      "students": "Jami talabalar",
+      "teachers": "Jami o'qituvchilar",
+      "courses": "Jami kurslar"
+    },
+    "table": {
+      "title": "O'qituvchi-talaba nisbati",
+      "description": "Har bir OTM bo'yicha 1:50 nisbat nazorati",
+      "otm": "OTM",
+      "students": "Talabalar",
+      "teachers": "O'qituvchilar",
+      "courses": "Kurslar",
+      "ratio": "Nisbat",
+      "violation": "Norma buzilgan",
+      "empty": "OTM ma'lumotlari topilmadi"
+    },
+    "chart": {
+      "title": "Nisbat diagrammasi",
+      "description": "OTM bo'yicha o'qituvchi-talaba nisbati"
+    },
+    "contingent": {
+      "title": "Kontingent statistikasi",
+      "description": "Ta'lim yo'nalishi va OTM bo'yicha taqsimot",
+      "bachelor": "Bakalavriat",
+      "master": "Magistratura",
+      "total": "Jami",
+      "empty": "Tanlangan oraliq uchun ma'lumot topilmadi"
+    },
+    "filter": {
+      "from": "Boshlanish sanasi",
+      "to": "Tugash sanasi"
+    },
+    "export": {
+      "csv": "CSV eksport",
+      "pdf": "PDF eksport"
+    }
+  },
+  "reports": {
+    "title": "Hisobotlar",
+    "description": "Turli hisobotlarni yaratish va tahlil qilish",
+    "errorTitle": "Hisobotlarni yuklab bo'lmadi",
+    "errorDescription": "Hisobot turlarini yuklashda xatolik yuz berdi",
+    "selector": {
+      "title": "Hisobot turini tanlang",
+      "label": "Hisobot turi",
+      "placeholder": "Hisobot turini tanlang..."
+    },
+    "tabs": {
+      "data": "Ma'lumotlar",
+      "export": "Eksport"
+    },
+    "filters": {
+      "title": "Hisobot filtrlari",
+      "startDate": "Boshlanish sanasi",
+      "endDate": "Tugash sanasi",
+      "selectDate": "Sanani tanlang",
+      "faculty": "Fakultet",
+      "allFaculties": "Barcha fakultetlar",
+      "direction": "Yo'nalish",
+      "allDirections": "Barcha yo'nalishlar",
+      "course": "Kurs",
+      "allCourses": "Barcha kurslar",
+      "clear": "Filtrlarni tozalash"
+    },
+    "types": {
+      "attendance": {
+        "name": "Davomat",
+        "title": "Davomat hisoboti",
+        "description": "Kurs va vaqt oralig'i bo'yicha talaba davomati statistikasi"
+      },
+      "grades": {
+        "name": "Baholar",
+        "title": "Baholar hisoboti",
+        "description": "Baholash natijalari va talabalar faoliyati ma'lumotlari"
+      },
+      "progress": {
+        "name": "Taraqqiyot",
+        "title": "Taraqqiyot hisoboti",
+        "description": "Kurs yakunlanishi statistikasi va talabalar taraqqiyoti"
+      },
+      "certificates": {
+        "name": "Sertifikatlar",
+        "title": "Sertifikatlar hisoboti",
+        "description": "Berilgan sertifikatlar va tasdiqlash holati"
+      }
+    },
+    "table": {
+      "noData": "Ma'lumot mavjud emas",
+      "noDataDescription": "Natijalarni ko'rish uchun filtrlarni sozlang",
+      "errorLoading": "Hisobot ma'lumotlarini yuklab bo'lmadi",
+      "totalRecords": "{{count}} ta yozuv topildi",
+      "generatedAt": "{{date}} sanasida yaratilgan",
+      "unsupportedType": "Qo'llab-quvvatlanmaydigan hisobot turi"
+    },
+    "attendance": {
+      "studentName": "Talaba",
+      "courseTitle": "Kurs",
+      "totalLessons": "Jami darslar",
+      "attendedLessons": "Qatnashgan",
+      "percentage": "Davomat %",
+      "lastAttendance": "Oxirgi davomat"
+    },
+    "grades": {
+      "studentName": "Talaba",
+      "courseTitle": "Kurs",
+      "assessmentTitle": "Baholash",
+      "score": "Ball",
+      "maxScore": "Maksimal ball",
+      "percentage": "Baho %",
+      "submittedAt": "Topshirilgan"
+    },
+    "progress": {
+      "studentName": "Talaba",
+      "courseTitle": "Kurs",
+      "lessonsCompleted": "Yakunlangan",
+      "totalLessons": "Jami darslar",
+      "percentage": "Progress %",
+      "lastActivity": "Oxirgi faoliyat"
+    },
+    "certificates": {
+      "studentName": "Talaba",
+      "courseTitle": "Kurs",
+      "certificateNumber": "Sertifikat №",
+      "issuedAt": "Berilgan",
+      "status": "Holat",
+      "verified": "Tasdiqlangan",
+      "pending": "Kutilmoqda"
+    },
+    "export": {
+      "title": "Hisobotlarni eksport qilish",
+      "error": "Eksport xato",
+      "csv": {
+        "title": "CSV Eksport",
+        "description": "Jadval tahlili uchun CSV fayl sifatida ma'lumotlarni eksport qilish",
+        "button": "CSV Eksport"
+      },
+      "pdf": {
+        "title": "PDF Eksport",
+        "description": "Formatlangan hisobotni PDF hujjat sifatida eksport qilish",
+        "button": "PDF Eksport"
+      },
+      "status": {
+        "title": "Eksport holati",
+        "export": "Eksport",
+        "progress": "Jarayon",
+        "download": "Yuklab olish",
+        "loading": "Eksport holati yuklanmoqda...",
+        "pending": "Kutilmoqda",
+        "processing": "Qayta ishlanmoqda",
+        "completed": "Yakunlandi",
+        "error": "Xato"
+      }
+    }
+  },
+  "feedback": {
+    "title": "Shikoyat yuborish",
+    "description": "O'quv jarayoni bilan bog'liq shikoyatlaringizni bildiring",
+    "form": {
+      "title": "Shikoyat formasi",
+      "category": "Shikoyat turi",
+      "categoryPlaceholder": "Shikoyat turini tanlang",
+      "course": "Tegishli kurs",
+      "coursePlaceholder": "Kursni tanlang (ixtiyoriy)",
+      "text": "Shikoyat matni",
+      "textPlaceholder": "Muammoni batafsil yozing...",
+      "attachments": "Qo'shimcha fayllar",
+      "attachmentsHint": "Zarur bo'lsa, hujjat yoki rasm ilova qiling",
+      "submit": "Shikoyat yuborish",
+      "submitting": "Yuborilmoqda...",
+      "cancel": "Bekor qilish"
+    },
+    "validation": {
+      "categoryRequired": "Shikoyat turi majburiy",
+      "textRequired": "Shikoyat matni majburiy",
+      "textMinLength": "Shikoyat matni kamida 20 belgi bo'lishi kerak"
+    },
+    "categories": {
+      "teaching_quality": "Ta'lim sifati",
+      "technical_issues": "Texnik muammolar",
+      "assessment": "Baholash masalalari",
+      "course_content": "Kurs mazmuni", 
+      "teacher_conduct": "O'qituvchi xulq-atvori",
+      "system_access": "Tizimga kirish muammosi",
+      "other": "Boshqa"
+    },
+    "success": {
+      "title": "Shikoyat yuborildi",
+      "description": "Sizning shikoyatingiz muvaffaqiyatli yuborildi.",
+      "number": "Shikoyat raqami: {{number}}",
+      "next": "Javob kutilmoqda. Holat o'zgarishi haqida bildirishnoma olasiz."
+    },
+    "history": {
+      "title": "Shikoyatlar tarixi",
+      "description": "Yuborilgan shikoyatlar va ularning holati",
+      "columns": {
+        "date": "Sana",
+        "number": "Raqam", 
+        "category": "Tur",
+        "course": "Kurs",
+        "status": "Holat",
+        "response": "Javob"
+      },
+      "status": {
+        "new": "Yangi",
+        "in_review": "Ko'rib chiqilmoqda",
+        "answered": "Javob berildi",
+        "closed": "Yopilgan"
+      },
+      "noResponse": "Javob kutilmoqda",
+      "viewResponse": "Javobni ko'rish",
+      "empty": "Shikoyatlar topilmadi",
+      "emptyDescription": "Siz hali hech qanday shikoyat yubormadingiz.",
+      "errorTitle": "Shikoyatlar tarixini yuklab bo'lmadi",
+      "errorDescription": "Shikoyatlar ro'yxatini olishda xatolik yuz berdi.",
+      "retry": "Qayta urinish"
+    },
+    "error": {
+      "submitFailed": "Shikoyat yuborib bo'lmadi",
+      "submitRetry": "Iltimos qayta urinib ko'ring",
+      "networkError": "Internet aloqasi muammosi",
+      "serverError": "Server xatosi",
+      "validationError": "Ma'lumotlar xato"
+    }
+  },
+  "complaints": {
+    "page": {
+      "title": "Shikoyatlar",
+      "description": "Shikoyat yuborish va tarixini ko'rish",
+      "tabs": {
+        "newComplaint": "Yangi shikoyat",
+        "history": "Shikoyat tarixi"
+      }
+    },
+    "form": {
+      "title": "Shikoyat yuborish",
+      "description": "O'quv jarayoni bilan bog'liq muammolaringizni bildiring",
+      "category": {
+        "label": "Shikoyat kategoriyasi",
+        "placeholder": "Kategoriyani tanlang",
+        "description": "Shikoyat turini aniq belgilang"
+      },
+      "course": {
+        "label": "Tegishli kurs",
+        "placeholder": "Kursni tanlang",
+        "noCourse": "Kurs bilan bog'liq emas",
+        "description": "Agar shikoyat aniq kurs bilan bog'liq bo'lsa, tanlang"
+      },
+      "text": {
+        "label": "Shikoyat matni",
+        "placeholder": "Muammo haqida batafsil yozing...",
+        "description": "Kamida {{minLength}} ta belgi kiriting"
+      },
+      "attachments": {
+        "label": "Qo'shimcha fayllar",
+        "description": "Maksimal {{maxSize}}, {{maxCount}} tagacha fayl",
+        "select": "Fayl tanlash",
+        "remove": "Faylni olib tashlash"
+      },
+      "submit": "Shikoyat yuborish",
+      "success": {
+        "title": "Shikoyat muvaffaqiyatli yuborildi",
+        "description": "Sizning shikoyatingiz qabul qilindi va ko'rib chiqiladi",
+        "trackingNumber": "Kuzatuv raqami:"
+      },
+      "validation": {
+        "invalidCategory": "Yaroqsiz kategoriya",
+        "textRequired": "Shikoyat matni majburiy",
+        "textTooShort": "Shikoyat matni juda qisqa",
+        "tooManyFiles": "Juda ko'p fayl",
+        "fileTooLarge": "Fayl hajmi juda katta",
+        "invalidFileType": "Yaroqsiz fayl turi"
+      }
+    },
+    "categories": {
+      "technical": "Texnik muammo",
+      "content": "Kurs mazmuni",
+      "teacher": "O'qituvchi bilan bog'liq",
+      "assessment": "Baholash masalasi",
+      "other": "Boshqa"
+    },
+    "status": {
+      "new": "Yangi",
+      "in_review": "Ko'rib chiqilmoqda",
+      "answered": "Javob berildi",
+      "closed": "Yopilgan"
+    },
+    "history": {
+      "title": "Shikoyat tarixi",
+      "description": "Yuborgan shikoyatlaringiz va ularning holati",
+      "table": {
+        "date": "Sana",
+        "subject": "Mavzu",
+        "status": "Holat",
+        "response": "Javob",
+        "actions": "Amallar"
+      },
+      "noResponse": "Hali javob yo'q",
+      "viewDetails": "Batafsil ko'rish",
+      "details": {
+        "title": "Shikoyat tafsilotlari",
+        "subtitle": "Shikoyat raqami: {{number}}",
+        "status": "Holat",
+        "createdAt": "Yaratilgan sana",
+        "number": "Raqam",
+        "response": "Javob"
+      },
+      "empty": {
+        "title": "Shikoyatlar yo'q",
+        "description": "Siz hali hech qanday shikoyat yubormadingiz"
+      },
+      "error": {
+        "title": "Xatolik yuz berdi",
+        "description": "Shikoyat tarixini yuklashda muammo"
+      }
+    }
+  }
+}
